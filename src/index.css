@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+	background-color: white;
+	font-family: 'Nunito', sans-serif;
+}
+
+/*Styling for the Editor and Preview*/
+.boxes {
+	padding-left: 10px;
+	width: 100%;
+}
+.editor-box {
+	background-color: #272727;
+	color: white;
+	height: 494px;
+}
+.preview-box {
+	overflow-y: scroll;
+	background-color: #f0f0f0;
+	height: 500px;
+}
+.box-container {
+	margin: 20px;
+	width: 100%;
+}
+
+/*Editor + Preview boxes position. Styling of headings*/
+.app {
+	max-width: 1500px;
+	margin: auto;
+}
+.e-p-container {
+	display: flex;
+	justify-content: space-around;
+}
+.title {
+	text-align: center;
+}
+.style-subheading {
+	color: black;
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+/*Styling of the items in the preview*/
+
+/*code*/
+pre {
+	background-color: white;
+	box-shadow: 1px 1px 5px black;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 20px;
+	color: red;
+}
+code {
+	color: red;
+}
+
+/*table*/
+table {
+	border-collapse: collapse;
+}
+th,
+td {
+	border: #000000 solid 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+th {
+	background-color: black;
+	color: white;
+}
+td {
+	background-color: white;
+}
+
+/*other*/
+blockquote {
+	border-left: black solid 10px;
+	padding-left: 5px;
+}
+
+/*Styling for screen sizes with a max-width of 945px*/
+@media only screen and (max-width: 945px) {
+	.app {
+		display: flex;
+		flex-direction: column;
+		max-width: 900px;
+		margin: 20px;
+	}
+	.e-p-container {
+		flex-direction: column;
+	}
+	.box-container {
+		margin: auto;
+	}
+}
