@@ -99,4 +99,12 @@ blockquote {
 	.box-container {
 		margin: auto;
 	}
+	pre {
+		margin: 10px;
+		width: 100%;
+	}
+	code {
+		font-size: 12px;
+		width: 100%;
+	}
 }

@@ -50,7 +50,7 @@ function anotherExample(firstLine, lastLine) {
 }
 \`\`\`
 
-Other stuff that you can do are [links](https://www.freecodecamp.org) and
+Other stuff that you can do are [links](https://github.com/) and
  > Block Quotes!
 
 You can also do tables:
@@ -67,7 +67,7 @@ content 4 | content 5 | content 6
 
 You can also do images:
 
-![freeCodeCamp Logo](https://i.postimg.cc/PrkTDxP4/pexels-irina-iriser-1005711.jpg)
+![Flowers Image](https://i.postimg.cc/PrkTDxP4/pexels-irina-iriser-1005711.jpg)
 
 Created by lunamoon8`;
 
